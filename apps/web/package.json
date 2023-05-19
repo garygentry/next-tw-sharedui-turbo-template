@@ -1,0 +1,20 @@
+{
+  "name": "@my-app/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "clean": "git clean -xdf .next .turbo node_modules"
+  },
+  "dependencies": {
+    "ui": "*",
+    "@my-app/tailwind-config": "*"
+  },
+  "devDependencies": {
+    "@my-app/eslint-config": "*",
+    "@my-app/tsconfig": "*"
+  }
+}

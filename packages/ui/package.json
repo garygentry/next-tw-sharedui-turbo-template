@@ -1,0 +1,15 @@
+{
+  "name": "ui",
+  "version": "0.0.0",
+  "main": "./index.tsx",
+  "types": "./index.tsx",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint \"**/*.ts*\""
+  },
+  "devDependencies": {
+    "@my-app/eslint-config": "*",
+    "@my-app/tsconfig": "*",
+    "@my-app/tailwind-config": "*"
+  }
+}
